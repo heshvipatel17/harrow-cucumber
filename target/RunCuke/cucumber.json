@@ -1,0 +1,378 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11921865600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "harrow-login-test;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 648628800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 118583000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10914603300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on login link",
+            "match": {
+              "location": "MyStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55209000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should navigate to login page successfully",
+            "match": {
+              "location": "MyStepdefs.iShouldNavigateToLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10588345000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify the error message when user login with invalid credintials",
+        "description": "",
+        "id": "harrow-login-test;verify-the-error-message-when-user-login-with-invalid-credintials",
+        "after": [
+          {
+            "result": {
+              "duration": 669784300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 216100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10928776300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on login link",
+            "match": {
+              "location": "MyStepdefs.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174674200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter email \"xyz@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepdefs.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117084400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepdefs.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490243100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Login button",
+            "match": {
+              "location": "MyStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62709700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the error message \"Invalid Username/Password supplied\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Username/Password supplied",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.iShouldSeeTheErrorMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Harrow Login Test",
+    "description": "As a user I want to navigate to login page",
+    "id": "harrow-login-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/gov/harrow/resources/featurefile/harrow.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8540020100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should navigate to services page successfully",
+        "description": "",
+        "id": "services-function;user-should-navigate-to-services-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 651349500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 239000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115272700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on services button",
+            "match": {
+              "location": "ServicesSteps.iClickOnServicesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 761078000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should navigate to services page successfully",
+            "match": {
+              "location": "ServicesSteps.iShouldNavigateToServicesPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10502281200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Veify text when user closes services page",
+        "description": "",
+        "id": "services-function;veify-text-when-user-closes-services-page",
+        "after": [
+          {
+            "result": {
+              "duration": 629391300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 306900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152161500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on services button",
+            "match": {
+              "location": "ServicesSteps.iClickOnServicesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 774313600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should navigate to services page successfully",
+            "match": {
+              "location": "ServicesSteps.iShouldNavigateToServicesPageSuccessfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147370300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on close button",
+            "match": {
+              "location": "ServicesSteps.iClickOnCloseButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57411500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see \"SERVICES\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SERVICES",
+                  "offset": 14
+                }
+              ],
+              "location": "ServicesSteps.iShouldSeeText(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Services function",
+    "description": "  As a user I want to check services on Harrow website",
+    "id": "services-function",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/gov/harrow/resources/featurefile/service.feature"
+  }
+]
